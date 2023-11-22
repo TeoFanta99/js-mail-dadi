@@ -5,10 +5,11 @@ const computerNumber = document.getElementById("numero-computer");
 
 
 // generare un numero random per l'utente
-console.log(Math.floor(Math.random() * 6) + 1);
+document.getElementById("numero-umano").innerHTML = (Math.floor(Math.random() * 6) + 1);
 
 
 // generare un numero random per il computer
+document.getElementById("numero-computer").innerHTML = (Math.floor(Math.random() * 6) + 1);
 
 
 
