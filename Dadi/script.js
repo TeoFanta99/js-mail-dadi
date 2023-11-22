@@ -1,24 +1,23 @@
-// selezioniamo gli elementi del DOM
-const result = document.getElementById("esito");
-const humanNumber = document.getElementById("numero-umano");
-const computerNumber = document.getElementById("numero-computer");
-
-
 // generare un numero random per l'utente
-document.getElementById("numero-umano").innerHTML = (Math.floor(Math.random() * 6) + 1);
+var humanNumber = (Math.floor(Math.random() * 6) + 1);
+console.log(humanNumber);
+document.getElementById("numero-umano").innerHTML = humanNumber;
 
 
 // generare un numero random per il computer
-document.getElementById("numero-computer").innerHTML = (Math.floor(Math.random() * 6) + 1);
+var computerNumber = (Math.floor(Math.random() * 6) + 1);
+console.log(computerNumber);
+document.getElementById("numero-computer").innerHTML = computerNumber;
 
 
-
+// stabilire le condizioni di vittoria, sconfitta e pareggio
 if (humanNumber > computerNumber) {
     console.log("hai vinto");
+    document.getElementById("esito").innerHTML = "HAI VINTO"
 } else if (computerNumber > humanNumber) {
     console.log("hai perso");
+    document.getElementById("esito").innerHTML = "HAI PERSO"
 } else {
     console.log("avete pareggiato");
+    document.getElementById("esito").innerHTML = "AVETE PAREGGIATO"
 }
-
-    
