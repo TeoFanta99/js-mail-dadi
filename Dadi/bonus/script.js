@@ -3,7 +3,7 @@ const roll = document.getElementById("bottone-lancia");
 
 
 // selezionare il container nascosto
-const hiddenContainer = document.getElementById("hidden-container")
+const hiddenContainer = document.getElementById("hidden-container");
 
 
 // generare un numero random per l'utente
@@ -24,7 +24,7 @@ roll.addEventListener("click",
     function () {
 
     // far comparire il container
-
+        hiddenContainer.classList.add("not-hidden")
 
     // stabilire le condizioni di vittoria, sconfitta e pareggio
         if (humanNumber > computerNumber) {
@@ -40,7 +40,6 @@ roll.addEventListener("click",
             document.getElementById("esito").innerHTML = "AVETE PAREGGIATO";
             result.classList.add("draw");
         }
-
         
     }
 
