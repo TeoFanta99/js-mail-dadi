@@ -21,3 +21,14 @@
 .not-hidden {
     display: block;
 }
+
+.container {
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-container {
+    width: 100%;
+}

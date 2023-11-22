@@ -44,3 +44,7 @@ roll.addEventListener("click",
     }
 
 );
+
+function refreshPage(){
+    window.location.reload();
+} 
