@@ -5,3 +5,11 @@
 .win {
     color: green;
 }
+
+.lose {
+    color: red;
+}
+
+.draw {
+    color: orange;
+}
