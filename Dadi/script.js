@@ -13,8 +13,12 @@ document.getElementById("numero-computer").innerHTML = (Math.floor(Math.random()
 
 
 
-// confronto dei due numeri: chi ha fatto il punteggio più alto?
-    // se il numero dell'utente è > del numero del pc = utente winner
-    // se il numero del pc è > del numero dell'utente = pc winner
-    // se i due numeri sono uguali = pareggio
+if (humanNumber > computerNumber) {
+    console.log("hai vinto");
+} else if (computerNumber > humanNumber) {
+    console.log("hai perso");
+} else {
+    console.log("avete pareggiato");
+}
+
     
