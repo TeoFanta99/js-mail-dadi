@@ -13,3 +13,7 @@
 .draw {
     color: orange;
 }
+
+.hidden {
+    display: none;
+}
