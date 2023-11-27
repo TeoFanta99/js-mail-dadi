@@ -7,17 +7,17 @@ const hiddenContainer = document.getElementById("hidden-container");
 
 
 // generare un numero random per l'utente
-var humanNumber = (Math.floor(Math.random() * 6) + 1);
+let humanNumber = (Math.floor(Math.random() * 6) + 1);
 console.log(humanNumber);
 document.getElementById("numero-umano").innerHTML = humanNumber;
 
 
 // generare un numero random per il computer
-var computerNumber = (Math.floor(Math.random() * 6) + 1);
+let computerNumber = (Math.floor(Math.random() * 6) + 1);
 console.log(computerNumber);
 document.getElementById("numero-computer").innerHTML = computerNumber;
 
-var result = document.getElementById("esito");
+let result = document.getElementById("esito");
 
 roll.addEventListener("click",
 

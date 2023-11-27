@@ -16,7 +16,6 @@ if (list.includes(text)) {
     // stampa esito positivo
     document.getElementById("mio_id").innerHTML = "ESITO POSITIVO"
 } 
-
 else {
     
     // stampa esito negativo
